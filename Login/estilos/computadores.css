@@ -1,0 +1,55 @@
+@media screen  and (min-width : 1200px)  {
+    body{
+        
+        display: block;
+        background-image: radial-gradient(#1B4242, #9EC8B9 );
+       height: 96.9vh;
+    }
+    .corpo{
+        background-image: radial-gradient(#1B4242, #9EC8B9 );
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        margin: 1.5% 1% 1% 1%;
+        align-items: center;
+        border-radius: 70px;
+
+        border: 1px solid rgba(255, 255, 255, 0.267);
+        box-shadow: 4px 5px 60px #07414188;
+
+    }
+    form{
+    background-color: rgba(255, 255, 255, 0.233);
+    width: 500px;
+    margin-top: 8.2%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    padding: 4.5%;
+    border-radius: 40px;
+
+
+}
+.conteiner{
+    display: none;
+    display: flex;
+    background-image: url(../imagens/paisagem.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    height: 670px;
+    width: 800px;
+    margin-top: 3.5%;
+    margin-right: 5%;
+    border-radius: 30px;
+    margin-bottom: 5%;
+
+}
+.divisoes{
+    width: 340px;
+}
+.nome{
+    display: none;
+    width: 38.5%;
+}
+
+}
